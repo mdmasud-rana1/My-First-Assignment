@@ -6,8 +6,10 @@
 nav{
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 8px;
+  justify-content: space-between;
+  padding: 8px 0;
+  max-width: 1200px;
+  margin: auto;
 }
 nav ul{
   display: flex;
@@ -75,9 +77,9 @@ h4 {
 .banner-card{
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 20px 0;
   justify-content: space-around;
-  row-gap: 5px;
+  gap: 10px;
 }
 .middle-item{
   
@@ -94,6 +96,34 @@ h4 {
 .card-section p{
   color: gray;
 }
+.card-section h1{
+  font-size: 18px;
+}
 .Third-sec{
-  padding: 25px;
+  padding: 25px 0;
+  max-width: 1200px;
+  margin: auto;
+}
+.fourth-sec{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+.fourth-sec-contain {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ width: 50%;
+}
+.fourth-sec-list{
+  list-style: none;
+}
+.fourth-sec-list li{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0;
+  font-weight: 600;
 }
